@@ -1,0 +1,7 @@
+streamlit
+PyMuPDF
+openai
+pandas
+tiktoken
+scipy
+PyYAML
