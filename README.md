@@ -89,8 +89,6 @@ If you prefer to run the app inside a Docker container, follow these steps:
 ## File Structure
 
 ```
-C:.
-├───.ipynb_checkpoints
 ├───data
 └───src
     └───main
@@ -99,8 +97,8 @@ C:.
             ├───gptQnA.py         # Handles question answering logic
             ├───pdfReader.py      # PDF processing and parsing
             ├───config.py         # Configuration for the app (e.g., OpenAI keys)
-            ├───resources         # Any additional resources (optional)
-            └───__pycache__       # Cached Python files
+            └───resources         # configuration files or other resources
+                └───config.yaml
 ```
 
 ## Contributing
